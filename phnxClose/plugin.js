@@ -1,6 +1,6 @@
 ﻿// this plugin is custom, you must have jquery and phnx-Modals in place
 
-CKEDITOR.plugins.add( 'close', {
+CKEDITOR.plugins.add( 'phnxClose', {
     icons: 'close',
     init: function( editor ) {
         editor.addCommand( 'closeWindow', {
